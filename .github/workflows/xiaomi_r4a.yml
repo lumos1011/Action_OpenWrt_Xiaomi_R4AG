@@ -185,7 +185,7 @@ jobs:
         echo "========> check the release tag"
         echo $(steps.tag.outputs.status)
         cat release.txt
-        echon "====End Check release tag==="
+        echo "====End Check release tag==="
 
     - name: Upload firmware to release
       uses: softprops/action-gh-release@v1
